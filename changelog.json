@@ -1,1 +1,38 @@
-{}
+{
+    "ReVanced/GmsCore": {
+        "ResourceName": "[ReVanced/GmsCore](https://github.com/ReVanced/GmsCore/releases/tag/v0.3.1.4.240913)",
+        "Version": "v0.3.1.4.240913",
+        "Changelog": "# Download\r\n\r\n| Default | Huawei |\r\n| -------- | -------- |\r\n| [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-signed.apk) |  [Download](https://github.com/ReVanced/GmsCore/releases/download/v0.3.1.4.240913/app.revanced.android.gms-240913008-hw-signed.apk) |\r\n",
+        "PublishedOn": "2024-04-05T02:37:11Z"
+    },
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.1)",
+        "Version": "V1.4.1",
+        "Changelog": "## What's Changed\r\n* More `info` functions: locales, languages, configurations, strings by @REAndroid in https://github.com/REAndroid/APKEditor/pull/132\r\n* Strong resource protection by @REAndroid in https://github.com/REAndroid/APKEditor/pull/133\r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.0...V1.4.1",
+        "PublishedOn": "2024-10-01T21:32:59Z"
+    },
+    "inotia00/revanced-cli": {
+        "ResourceName": "[inotia00/revanced-cli](https://github.com/inotia00/revanced-cli/releases/tag/v4.6.2)",
+        "Version": "v4.6.2",
+        "Changelog": "- build: update dependencies\r\n- feat: matches default values \u200b\u200bfor keystore alias and password to ReVanced (still compatible with keystores generated via CLI 3.0)\r\n",
+        "PublishedOn": "2024-10-04T10:43:38Z"
+    },
+    "inotia00/revanced-patches": {
+        "ResourceName": "[inotia00/revanced-patches](https://github.com/inotia00/revanced-patches/releases/tag/v4.16.1)",
+        "Version": "v4.16.1",
+        "Changelog": "YouTube\r\n==\r\n- chore(YouTube/InclusiveSpan): check in advance whether debug log is enabled to prevent unnecessary toString invokes\r\n- feat(YouTube/Description components): add `Hide AI-generated video summary section` setting https://github.com/inotia00/ReVanced_Extended/issues/2473\r\n- feat(YouTube/Hide ads): add `Hide player shopping shelf` setting https://github.com/inotia00/ReVanced_Extended/issues/2447\r\n- feat(YouTube/Hide feed components): add `Hide floating button` setting - [Screenshot](https://www.reddit.com/r/youtube/comments/1fq2bma/how_do_i_remove_this_button/)\r\n- feat(YouTube/Hide feed components): add debug logging\r\n- feat(YouTube/Seekbar components): add info to `Append timestamp information` summary about tapping the appended information https://github.com/inotia00/revanced-patches/pull/93\r\n- feat(YouTube/Shorts components): remove `Hide in watch history` setting\r\n- feat(YouTube/Spoof app version): remove obsolete 17.33.42 spoof target https://github.com/ReVanced/revanced-patches/pull/3825\r\n- feat(YouTube/Spoof app version): remove obsolete 19.13.37 spoof target https://github.com/inotia00/ReVanced_Extended/issues/2477\r\n- feat(YouTube/Spoof streaming data): add `iOS Compatibility mode` setting\r\n- feat(YouTube/Spoof streaming data): change default client to iOS\r\n- feat(YouTube/Spoof streaming data): update the hardcoded iOS client version (partial support for opus codec) https://github.com/inotia00/ReVanced_Extended/issues/2480\r\n- fix(YouTube/Hide feed components): `Hide carousel shelf` setting hides the library shelf\r\n- fix(YouTube/Litho filter): disable obfuscation\r\n- fix(YouTube/Overlay buttons): support A/B player layout\r\n- fix(YouTube/Return YouTube Dislike): height of the separator does not matchs https://github.com/inotia00/ReVanced_Extended/issues/2474\r\n- fix(YouTube/Settings): app crashes due to incorrect settings arrangement\r\n- fix(YouTube/Settings): remove duplicate descriptions\r\n- fix(YouTube/Settings): restart dialog appears twice when the app is first installed\r\n- fix(YouTube/Shorts components): Shorts shown in Home feed https://github.com/inotia00/ReVanced_Extended/issues/2467\r\n- fix(YouTube/Shorts components): `Hide Shorts shelves` setting sometimes hides shelves in the library tab\r\n- fix(YouTube/SponsorBlock): wrong segment behavior selected https://github.com/inotia00/ReVanced_Extended/issues/2468\r\n- fix(YouTube/Toolbar components): premium header not applied when `Hide YouTube Doodles` is turned on\r\n- fix(YouTube/Video playback): custom playback speed not working due to A/B tests https://github.com/ReVanced/revanced-patches/pull/3817\r\n- feat(YouTube/Translations): update translation\r\n\r\n\r\nYouTube Music\r\n==\r\n- fix(YouTube Music): app crashes on Android 5, 6 https://github.com/inotia00/ReVanced_Extended/issues/2449\r\n- feat(YouTube Music/Translations): update translation\r\n\r\n\r\nAnnouncement\r\n==\r\n- YouTube's support version has been rolled back to **19.16.39** for the following reasons: https://github.com/inotia00/ReVanced_Extended/issues/2241.\r\n- YouTube Music's support version has been rolled back to **7.16.53** for the following reasons: https://github.com/inotia00/ReVanced_Extended/issues/2382.\r\n- Reddit 2024.18.0+ can only be patched via [CLI](https://github.com/inotia00/revanced-documentation/blob/main/docs/latest-reddit-patch-info.md) or rvx-builder.\r\n- Compatible ReVanced Manager: [RVX Manager v1.22.2 (fork)](https://github.com/inotia00/revanced-manager/releases/tag/v1.22.2).\r\n\r\n\r\nContribute to translation\r\n==\r\n- [YouTube](https://crowdin.com/project/revancedextended)\r\n- [YT Music](https://crowdin.com/project/revancedmusicextended)\r\n",
+        "PublishedOn": "2024-11-08T13:44:25Z"
+    },
+    "revanced/revanced-patches": {
+        "ResourceName": "[revanced/revanced-patches](https://github.com/ReVanced/revanced-patches/releases/tag/v5.0.2)",
+        "Version": "v5.0.2",
+        "Changelog": "## [5.0.2](https://github.com/ReVanced/revanced-patches/compare/v5.0.1...v5.0.2) (2024-11-12)\n\n\n### Bug Fixes\n\n* **Sync for Reddit - Fix /s/ links:** Fix patch by using correct fingerprints ([a0ad07e](https://github.com/ReVanced/revanced-patches/commit/a0ad07ef3170dbe1d91ebd40f11d97b63d1c63d0))\n* **Sync for Reddit - Spoof client:** Fix patch by using correct fingerprints ([5776de3](https://github.com/ReVanced/revanced-patches/commit/5776de3cfbfa62360267eb6026525d2da8c45654))\n* **YouTube - Player controls:** Show player control buttons with A/B layout ([#3901](https://github.com/ReVanced/revanced-patches/issues/3901)) ([bb526bc](https://github.com/ReVanced/revanced-patches/commit/bb526bc00a384eb808f46267e5802c8e5beaa7d5))\n\n\n\n",
+        "PublishedOn": "2024-11-12T13:49:17Z"
+    },
+    "crimera/piko": {
+        "ResourceName": "[crimera/piko](https://github.com/crimera/piko/releases/tag/v1.45.0)",
+        "Version": "v1.45.0",
+        "Changelog": "## [1.45.0](https://github.com/crimera/piko/compare/v1.44.0...v1.45.0) (2024-11-14)\n\n### Bug Fixes\n\n* **Twitter:** Share menu button add hook in/from 10.67 ([a640946](https://github.com/crimera/piko/commit/a640946e7045be359535ed0eead00ec80d2e10c4))\n\n### Features\n\n* **Twitter:** Added `Customise post font size` patch ([ea608e0](https://github.com/crimera/piko/commit/ea608e09b7b0775f38ca1914503e1b54dc7b73f9))\n\n### Refactors\n\n* **Twitter:** refactor values of list preference ([e0e5c5b](https://github.com/crimera/piko/commit/e0e5c5b8639efcd5eecd6476bc59b7f125d5b851))\n\n### Perfomance\n\n* **Bring back twitter:** Optimize string replacement ([#440](https://github.com/crimera/piko/issues/440)) ([7e61023](https://github.com/crimera/piko/commit/7e6102351d9488f89489f87df2ec45d6d0d178d8))\n",
+        "PublishedOn": "2024-11-14T04:35:04Z"
+    }
+}
