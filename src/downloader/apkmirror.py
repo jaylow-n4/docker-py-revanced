@@ -2,6 +2,7 @@
 
 from typing import Any, Self
 
+import cloudscraper
 import requests
 from bs4 import BeautifulSoup, Tag
 from loguru import logger
@@ -78,7 +79,8 @@ class ApkMirror(Downloader):
     @staticmethod
     def _extract_source(url: str) -> str:
         """Extracts the source from the url incase of reuse."""
-        response = requests.get(url, headers=request_header, timeout=request_timeout)
+        scraper = cloudscraper.create_scraper()
+        response = scraper.get(url, headers=request_header, timeout=request_timeout)
         handle_request_response(response, url)
         return response.text
 

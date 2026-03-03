@@ -16,6 +16,7 @@ from zoneinfo import ZoneInfo
 import requests
 from environs import Env
 from loguru import logger
+import cloudscraper
 from requests import Response, Session
 
 if TYPE_CHECKING:
@@ -42,7 +43,7 @@ bs4_parser = "html.parser"
 changelog_file = "changelog.md"
 changelog_json_file = "changelog.json"
 request_timeout = 60
-session = Session()
+session = cloudscraper.create_scraper()
 session.headers["User-Agent"] = request_header["User-Agent"]
 updates_file = "updates.json"
 updates_file_url = "https://raw.githubusercontent.com/{github_repository}/{branch_name}/{updates_file}"
