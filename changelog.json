@@ -1,1 +1,20 @@
-{}
+{
+    "REAndroid/APKEditor": {
+        "ResourceName": "[REAndroid/APKEditor](https://github.com/REAndroid/APKEditor/releases/tag/V1.4.7)",
+        "Version": "V1.4.7",
+        "Changelog": "## What's Changed\r\n* Set smali comment level to `basic` (For faster smali deompiling):https://github.com/REAndroid/APKEditor/commit/a5390a3401153ab9ac38b4487a279316eee7400d\r\n* Fix: Protector - dictionaries options by @Kirlif in https://github.com/REAndroid/APKEditor/pull/218\r\n\r\n\r\n**Full Changelog**: https://github.com/REAndroid/APKEditor/compare/V1.4.6...V1.4.7",
+        "PublishedOn": "2025-12-28T11:00:45Z"
+    },
+    "revanced/revanced-patches": {
+        "ResourceName": "[revanced/revanced-patches](https://github.com/ReVanced/revanced-patches/releases/tag/v6.0.1)",
+        "Version": "v6.0.1",
+        "Changelog": "## [6.0.1](https://github.com/ReVanced/revanced-patches/compare/v6.0.0...v6.0.1) (2026-03-15)\n\n\n### Bug Fixes\n\n* **GmsCore support:** use `prefixOrReplace` for non-matching APP_AUTHORITIES in content URL transformation ([#6801](https://github.com/ReVanced/revanced-patches/issues/6801)) ([8f6f128](https://github.com/ReVanced/revanced-patches/commit/8f6f128d718c20c56668ed3801b434a5cbb04dfd))\n* **YouTube Music - Hide buttons:** Crashes on startup due to null LayoutParams ([#6799](https://github.com/ReVanced/revanced-patches/issues/6799)) ([3e32c38](https://github.com/ReVanced/revanced-patches/commit/3e32c387328b061f33b361ed022ae18e447a7904))\n* **YouTube:** Use correct query parameters for DeArrow requests ([#6780](https://github.com/ReVanced/revanced-patches/issues/6780)) ([02a48e7](https://github.com/ReVanced/revanced-patches/commit/02a48e7a5f2b1ffd64a80651b49666de27ab7014))\n\n\n\n",
+        "PublishedOn": "2026-03-15T18:04:25Z"
+    },
+    "revanced/revanced-cli": {
+        "ResourceName": "[revanced/revanced-cli](https://github.com/ReVanced/revanced-cli/releases/tag/v6.0.0)",
+        "Version": "v6.0.0",
+        "Changelog": "# [6.0.0](https://github.com/ReVanced/revanced-cli/compare/v5.0.1...v6.0.0) (2026-03-14)\n\n\n* build(Needs bump)!: Update to ReVanced Patcher v22 ([#385](https://github.com/ReVanced/revanced-cli/issues/385)) ([30f36ee](https://github.com/ReVanced/revanced-cli/commit/30f36ee270d4b63b69bf7949c7968f2827c395ce))\n\n\n### Bug Fixes\n\n* Do not print patch description if null ([bba90fe](https://github.com/ReVanced/revanced-cli/commit/bba90fede85e4632efb9509e5bcf9091a9435549))\n* Group `mount` and `install` options into an argument group  ([#364](https://github.com/ReVanced/revanced-cli/issues/364)) ([0c53a2d](https://github.com/ReVanced/revanced-cli/commit/0c53a2d1d75d3d934d134594751fe6cd0b000d1a))\n\n\n### Features\n\n* Add signature and build provenance verification ([f481462](https://github.com/ReVanced/revanced-cli/commit/f481462ccf2eb55d1f964c0f3934bf2b29f4b0ef))\n\n\n### BREAKING CHANGES\n\n* ReVanced CLI switches to ReVanced Patcher v22 and will therefore be incompatible with patches from older versions of ReVanced Patcher.\n\n\n\n",
+        "PublishedOn": "2026-03-14T23:08:12Z"
+    }
+}
